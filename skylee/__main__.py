@@ -32,15 +32,15 @@ from skylee.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey There ! My name is 𝙈𝙚𝙞𝙠𝙤 
+Hey There ! My name is FULL MANAGER
 I'm here to make your group management fun and easy!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 Please Click Help Button For Assistance And Help Regarding Special Modules
 You can find the list of available commands with Help Module.
 Any issues or need help related to me?
 ==========================
-✗ [Support Channel](t.me/Meikosupport)
-✗ [Support Group](t.me/meikoSupportChat)
+✗ [Support Channel](t.me/fullbinmanager)
+✗ [Support Group](https://t.me/joinchat/50718v90bQ84OTZl)
 ==========================
 Wanna Add me to your Group? Just click the button below!
 """
@@ -48,9 +48,9 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me To Group ➕", url="t.me/meikobot?startgroup=true"
+            text="Add Me To Group ➕", url="t.me/fullmanager_bot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates & Info 📃", url="https://t.me/meikosupport"),
+        InlineKeyboardButton(text="Updates & Info 📃", url="https://t.me/fullbinmanager"),
     ]
 ]
 
@@ -59,7 +59,7 @@ buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="hel
 
 HELP_STRINGS = f"""
 Hello there! My name is *{dispatcher.bot.first_name}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a full bin group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
